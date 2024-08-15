@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #056679;
+  font-family: sans-serif;
+}
+
+.todo-container {
+  min-height: 100vh;
+  background-color: #056679;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contents {
+  width: 500px;
+  margin: 20px 0px 20px 0;
+  text-align: center;
+}
+
+.input-section {
+  border-radius: 15px;
+  padding: 5px 25px 25px 25px;
+  background-color: #055564;
+  border: 1px solid #ababab54;
+  box-shadow: 8px 12px 6px #00000f45;
+}
+
+.input-section h1 {
+  margin: 15px 0px;
+  color: #abababaa;
+}
+
+.input-section input {
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #abababaa;
+  box-sizing: border-box;
+  background-color: #055564;
+  padding: 12px 10px 12px 12px;
+  border: 1px solid #abababaa;
+  box-shadow: 2px 2px 6px #00000f45;
+}
+
+input::placeholder {
+  color: #abababaa;
+}
+
+ul {
+  text-align: left;
+  padding-left: 0%;
+  min-height: 200px;
+}
+
+ul li {
+  display: flex;
+  list-style: none;
+  margin-top: 15px;
+  color: #ababab;
+  font-weight: 600;
+  padding: 25px 15px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: #055564;
+  border: 1px solid #ababab54;
+  justify-content: space-between;
+  box-shadow: 8px 12px 6px #00000f45;
+}
+
+ul li i {
+  font-weight: 700;
+  color: #abababaa;
+}
+ul li i:hover {
+  color: #ababab;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.edit-form {
+  box-shadow: 0px 0px 6px #00000f45;
+  width: 100%;
+  display: flex;
+}
+
+.edit-input {
+  margin: 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #abababaa;
+  box-sizing: border-box;
+  padding: 12px 10px 12px 12px;
+  background-color: #055564;
+}
+
+.content-box {
+  width: 390px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.btns {
+  width: auto;
+  margin: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #abababaa;
+  border: 0px 1px solid;
+  box-sizing: border-box;
+  padding: 12px 10px 12px 12px;
+  background-color: #055564;
+  border-left: 1px solid rgba(192, 192, 192, 0.126);
+  border-right: 1px solid rgba(192, 192, 192, 0.126);
+}
+.btns:hover {
+  color: #ababab;
+}
+
+.list-box {
+  width: 100%;
+  display: flex;
+  padding-left: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-box:hover {
+  box-shadow: 1px 2px 6px #00000f29;
+}
+
+.btn-shadow {
+  box-shadow: 1px 2px 6px #00000f45;
+}
